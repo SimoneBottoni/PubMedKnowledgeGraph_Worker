@@ -1,0 +1,372 @@
+
+<!-- Created BookDocument -->
+<PubmedBookArticleSet>
+	<PubmedBookArticle>
+		<BookDocument>
+			<PMID Version="1">92349121</PMID>
+			<ArticleIdList>
+				<ArticleId IdType="pubmed">33349374</ArticleId>
+				<ArticleId IdType="pii">S0196-0644(20)31355-X</ArticleId>
+				<ArticleId IdType="doi">10.1016/j.annemergmed.2020.10.024</ArticleId>
+			</ArticleIdList>
+			<Book>
+				<Publisher>
+					<PublisherName>PublisherName</PublisherName>
+					<PublisherLocation>Location</PublisherLocation>
+				</Publisher>
+				<BookTitle> Clinical Policy: Critical Issues in the Management of Adult Patients Presenting to the Emergency Department With Community-Acquired Pneumonia. </BookTitle>
+				<PubDate>
+					<Year>2021</Year>
+					<Month>Jan</Month>
+				</PubDate>
+				<BeginningDate>
+					<Year>2020</Year>
+					<Month>Jan</Month>
+				</BeginningDate>
+				<EndingDate>
+					<Year>2020</Year>
+					<Month>Jan</Month>
+				</EndingDate>
+				<AuthorList CompleteYN="Y">
+					<Author ValidYN="Y">
+						<CollectiveName>American College of Emergency Physicians Clinical Policies Subcommittee (Writing Committee) on Community-Acquired Pneumonia</CollectiveName>
+					</Author>
+					<Author ValidYN="Y">
+						<LastName>Smith</LastName>
+						<ForeName>Michael D</ForeName>
+						<Initials>MD</Initials>
+					</Author>
+					<Author ValidYN="Y">
+						<LastName>Fee</LastName>
+						<ForeName>Christopher</ForeName>
+						<Initials>C</Initials>
+					</Author>
+				</AuthorList>
+				<InvestigatorList>
+					<Investigator ValidYN="Y">
+						<LastName>Wolf</LastName>
+						<ForeName>Stephen J</ForeName>
+						<Initials>SJ</Initials>
+					</Investigator>
+					<Investigator ValidYN="Y">
+						<LastName>Byyny</LastName>
+						<ForeName>Richard</ForeName>
+						<Initials>R</Initials>
+					</Investigator>
+				</InvestigatorList>
+				<Volume>145</Volume>
+				<VolumeTitle>Book</VolumeTitle>
+				<Edition>123</Edition>
+				<CollectionTitle>Book of books</CollectionTitle>
+				<Isbn>123-456</Isbn>
+				<Isbn>456-789</Isbn>
+				<ELocationID EIdType="pii" ValidYN="Y">S1878-8750(20)32273-7</ELocationID>
+				<ELocationID EIdType="doi" ValidYN="Y">10.1016/j.wneu.2020.10.081</ELocationID>
+				<Medium>hello</Medium>
+				<ReportNumber>66</ReportNumber>
+			</Book>
+			<LocationLabel Type="section">sectionValue</LocationLabel>
+			<LocationLabel Type="chapter">chapterValue</LocationLabel>
+			<VernacularTitle >VernacularTitleValue</VernacularTitle>
+			<Pagination>
+				<StartPage>2 </StartPage>
+				<EndPage>5</EndPage>
+				<MedlinePgn> 12-A </MedlinePgn>
+			</Pagination>
+			<Language >eng</Language>
+			<Language >ita</Language>
+			<AuthorList CompleteYN="Y">
+				<Author ValidYN="Y">
+					<LastName>Lu</LastName>
+					<ForeName>Guangyu</ForeName>
+					<Initials>G</Initials>
+					<AffiliationInfo>
+						<Affiliation>Department of Preventive Medicine, Medical College of Yangzhou University, Yangzhou University, Yangzhou, China.</Affiliation>
+					</AffiliationInfo>
+				</Author>
+			</AuthorList>
+			<InvestigatorList>
+				<Investigator ValidYN="Y">
+					<LastName>Wolf</LastName>
+					<ForeName>Stephen J</ForeName>
+					<Initials>SJ</Initials>
+				</Investigator>
+				<Investigator ValidYN="Y">
+					<LastName>ByynyAAA</LastName>
+					<ForeName>Richard</ForeName>
+					<Initials>R</Initials>
+				</Investigator>
+			</InvestigatorList>
+			<PublicationType UI="D016428">Journal Article</PublicationType>
+			<Abstract>
+				<AbstractText>Changes in DNA methylation, whether hypo- or hypermethylation, have been shown to be associated with the progression of colorectal cancer. Methylation changes substantially in the progression from normal mucosa to adenoma and to carcinoma. .</AbstractText>
+				<CopyrightInformation>Copyright © 2012 Pathological Society of Great Britain and Ireland. Published by John Wiley &amp; Sons, Ltd.</CopyrightInformation>
+			</Abstract>
+			<Sections>
+				<Section>
+					<LocationLabel Type="chapter">chapterValueSection</LocationLabel>
+					<SectionTitle>TitleSection1</SectionTitle>
+					<Section>
+						<LocationLabel Type="chapte2r">subsection</LocationLabel>
+						<SectionTitle>Titlesubsection</SectionTitle>
+					</Section>
+				</Section>
+				<Section>
+					<LocationLabel Type="chapter23">chapterValueSection2</LocationLabel>
+					<SectionTitle>TitleSection2</SectionTitle>
+				</Section>
+			</Sections>
+			<KeywordList Owner="NLM">
+				<Keyword MajorTopicYN="Y">Keyword1</Keyword>
+				<Keyword MajorTopicYN="N">Keyword2</Keyword>
+			</KeywordList>
+			<ContributionDate>
+				<Year>2020</Year>
+				<Month>Jan</Month>
+			</ContributionDate>
+			<DateRevised>
+				<Year>2010</Year>
+				<Month>Jan</Month>
+			</DateRevised>
+			<GrantList CompleteYN="Y">
+				<Grant>
+					<GrantID>090532</GrantID>
+					<Agency>Wellcome Trust</Agency>
+					<Country>United Kingdom</Country>
+				</Grant>
+				<Grant>
+					<GrantID>090532/Z/09/Z</GrantID>
+					<Agency>Wellcome Trust1</Agency>
+					<Country>United Kingdom1</Country>
+				</Grant>
+			</GrantList>
+			<ItemList CDATA="ItemAtt">
+				<Item>Item1</Item>
+				<Item>Item2</Item>
+				<Item>Item3</Item>
+			</ItemList>
+			<ReferenceList>
+				<Title>Reference</Title>
+				<Reference>
+					<Citation>Weldegiorgis M, Woodward M. The impact of hypertension on chronic kidney disease and end-stage renal disease is greater in men than women: a systematic review and meta-analysis. BMC Nephrol. 2020;21:506 https://doi.org/10.1186/s12882-020-02151-7 .</Citation>
+					<ArticleIdList>
+						<ArticleId IdType="doi">10.1186/s12882-020-02151-7</ArticleId>
+					</ArticleIdList>
+				</Reference>
+			</ReferenceList>
+		</BookDocument>
+
+		<PubmedBookData>
+			<History>
+				<PubMedPubDate PubStatus="medline">
+					<Year>2020</Year>
+					<Month>12</Month>
+					<Day>23</Day>
+					<Hour>6</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+			</History>
+			<PublicationStatus>ppublish</PublicationStatus>
+		</PubmedBookData>
+
+		<ArticleIdList>
+			<ArticleId IdType="pubmed">33348493</ArticleId>
+			<ArticleId IdType="pii">S1878-8750(20)32273-7</ArticleId>
+			<ArticleId IdType="doi">10.1016/j.wneu.2020.10.081</ArticleId>
+		</ArticleIdList>
+		<ObjectList>
+			<Object CDATA="pet" >
+				<Param CDATA="AAAA" >hamster</Param>
+				<Param CDATA="BBBB" >dog</Param>
+			</Object>
+			<Object CDATA="pet2" >
+				<Param CDATA="AAAA" >cat</Param>
+			</Object>
+		</ObjectList>
+	</PubmedBookArticle>
+
+	<PubmedBookArticle>
+		<BookDocument>
+			<PMID Version="1">92349122</PMID>
+			<ArticleIdList>
+				<ArticleId IdType="pubmed">33349374</ArticleId>
+				<ArticleId IdType="pii">S0196-0644(20)31355-X</ArticleId>
+				<ArticleId IdType="doi">10.1016/j.annemergmed.2020.10.024</ArticleId>
+			</ArticleIdList>
+			<Book>
+				<Publisher>
+					<PublisherName>PublisherName</PublisherName>
+					<PublisherLocation>Location</PublisherLocation>
+				</Publisher>
+				<BookTitle> Clinical Policy: Critical Issues in the Management of Adult Patients Presenting to the Emergency Department With Community-Acquired Pneumonia. </BookTitle>
+				<PubDate>
+					<Year>2021</Year>
+					<Month>Jan</Month>
+				</PubDate>
+				<BeginningDate>
+					<Year>2020</Year>
+					<Month>Jan</Month>
+				</BeginningDate>
+				<EndingDate>
+					<Year>2020</Year>
+					<Month>Jan</Month>
+				</EndingDate>
+				<AuthorList CompleteYN="Y">
+					<Author ValidYN="Y">
+						<CollectiveName>American College of Emergency Physicians Clinical Policies Subcommittee (Writing Committee) on Community-Acquired Pneumonia</CollectiveName>
+					</Author>
+					<Author ValidYN="Y">
+						<LastName>Smith</LastName>
+						<ForeName>Michael D</ForeName>
+						<Initials>MD</Initials>
+					</Author>
+					<Author ValidYN="Y">
+						<LastName>Fee</LastName>
+						<ForeName>Christopher</ForeName>
+						<Initials>C</Initials>
+					</Author>
+				</AuthorList>
+				<InvestigatorList>
+					<Investigator ValidYN="Y">
+						<LastName>Wolf</LastName>
+						<ForeName>Stephen J</ForeName>
+						<Initials>SJ</Initials>
+					</Investigator>
+					<Investigator ValidYN="Y">
+						<LastName>Byyny</LastName>
+						<ForeName>Richard</ForeName>
+						<Initials>R</Initials>
+					</Investigator>
+				</InvestigatorList>
+				<Volume>145</Volume>
+				<VolumeTitle>Book</VolumeTitle>
+				<Edition>123</Edition>
+				<CollectionTitle>Book of books</CollectionTitle>
+				<Isbn>123-456</Isbn>
+				<Isbn>456-789</Isbn>
+				<ELocationID EIdType="pii" ValidYN="Y">S1878-8750(20)32273-7</ELocationID>
+				<ELocationID EIdType="doi" ValidYN="Y">10.1016/j.wneu.2020.10.081</ELocationID>
+				<Medium>hello</Medium>
+				<ReportNumber>66</ReportNumber>
+			</Book>
+			<LocationLabel Type="section">sectionValue</LocationLabel>
+			<LocationLabel Type="chapter">chapterValue</LocationLabel>
+			<VernacularTitle >VernacularTitleValue</VernacularTitle>
+			<Pagination>
+				<StartPage>2 </StartPage>
+				<EndPage>5</EndPage>
+				<MedlinePgn> 12-A </MedlinePgn>
+			</Pagination>
+			<Language >eng</Language>
+			<Language >ita</Language>
+			<AuthorList CompleteYN="Y">
+				<Author ValidYN="Y">
+					<LastName>Lu</LastName>
+					<ForeName>Guangyu</ForeName>
+					<Initials>G</Initials>
+					<AffiliationInfo>
+						<Affiliation>Department of Preventive Medicine, Medical College of Yangzhou University, Yangzhou University, Yangzhou, China.</Affiliation>
+					</AffiliationInfo>
+				</Author>
+			</AuthorList>
+			<InvestigatorList>
+				<Investigator ValidYN="Y">
+					<LastName>Wolf</LastName>
+					<ForeName>Stephen J</ForeName>
+					<Initials>SJ</Initials>
+				</Investigator>
+				<Investigator ValidYN="Y">
+					<LastName>ByynyAAA</LastName>
+					<ForeName>Richard</ForeName>
+					<Initials>R</Initials>
+				</Investigator>
+			</InvestigatorList>
+			<PublicationType UI="D016428">Journal Article</PublicationType>
+			<Abstract>
+				<AbstractText>Changes in DNA methylation, whether hypo- or hypermethylation, have been shown to be associated with the progression of colorectal cancer. Methylation changes substantially in the progression from normal mucosa to adenoma and to carcinoma. .</AbstractText>
+				<CopyrightInformation>Copyright © 2012 Pathological Society of Great Britain and Ireland. Published by John Wiley &amp; Sons, Ltd.</CopyrightInformation>
+			</Abstract>
+			<Sections>
+				<Section>
+					<LocationLabel Type="chapter">chapterValueSection</LocationLabel>
+					<SectionTitle>TitleSection1</SectionTitle>
+					<Section>
+						<LocationLabel Type="chapte2r">subsection</LocationLabel>
+						<SectionTitle>Titlesubsection</SectionTitle>
+					</Section>
+				</Section>
+				<Section>
+					<LocationLabel Type="chapter23">chapterValueSection2</LocationLabel>
+					<SectionTitle>TitleSection2</SectionTitle>
+				</Section>
+			</Sections>
+			<KeywordList Owner="NLM">
+				<Keyword MajorTopicYN="Y">Keyword1</Keyword>
+				<Keyword MajorTopicYN="N">Keyword2</Keyword>
+			</KeywordList>
+			<ContributionDate>
+				<Year>2020</Year>
+				<Month>Jan</Month>
+			</ContributionDate>
+			<DateRevised>
+				<Year>2010</Year>
+				<Month>Jan</Month>
+			</DateRevised>
+			<GrantList CompleteYN="Y">
+				<Grant>
+					<GrantID>090532</GrantID>
+					<Agency>Wellcome Trust</Agency>
+					<Country>United Kingdom</Country>
+				</Grant>
+				<Grant>
+					<GrantID>090532/Z/09/Z</GrantID>
+					<Agency>Wellcome Trust1</Agency>
+					<Country>United Kingdom1</Country>
+				</Grant>
+			</GrantList>
+			<ItemList CDATA="ItemAtt">
+				<Item>Item1</Item>
+				<Item>Item2</Item>
+				<Item>Item3</Item>
+			</ItemList>
+			<ReferenceList>
+				<Title>Reference</Title>
+				<Reference>
+					<Citation>Weldegiorgis M, Woodward M. The impact of hypertension on chronic kidney disease and end-stage renal disease is greater in men than women: a systematic review and meta-analysis. BMC Nephrol. 2020;21:506 https://doi.org/10.1186/s12882-020-02151-7 .</Citation>
+					<ArticleIdList>
+						<ArticleId IdType="doi">10.1186/s12882-020-02151-7</ArticleId>
+					</ArticleIdList>
+				</Reference>
+			</ReferenceList>
+		</BookDocument>
+
+		<PubmedBookData>
+			<History>
+				<PubMedPubDate PubStatus="medline">
+					<Year>2020</Year>
+					<Month>12</Month>
+					<Day>23</Day>
+					<Hour>6</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+			</History>
+			<PublicationStatus>ppublish</PublicationStatus>
+		</PubmedBookData>
+
+		<ArticleIdList>
+			<ArticleId IdType="pubmed">33348493</ArticleId>
+			<ArticleId IdType="pii">S1878-8750(20)32273-7</ArticleId>
+			<ArticleId IdType="doi">10.1016/j.wneu.2020.10.081</ArticleId>
+		</ArticleIdList>
+		<ObjectList>
+			<Object CDATA="pet" >
+				<Param CDATA="AAAA" >hamster</Param>
+				<Param CDATA="BBBB" >dog</Param>
+			</Object>
+			<Object CDATA="pet2" >
+				<Param CDATA="AAAA" >cat</Param>
+			</Object>
+		</ObjectList>
+	</PubmedBookArticle>
+
+</PubmedBookArticleSet>

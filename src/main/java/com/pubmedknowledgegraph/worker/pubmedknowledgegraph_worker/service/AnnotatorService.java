@@ -36,11 +36,11 @@ public class AnnotatorService {
         Set<Tag> tagMainList = new HashSet<>();
         List<Callable<List<Tag>>> callableList = new ArrayList<>();
 
-        for (List<Article> partition : Lists.partition(articleList, 10000)) {
+        for (List<Article> partition : Lists.partition(articleList, 100)) {
             callableList.add(createCallable(fileName, partition));
         }
 
-        ExecutorService executorService = Executors.newFixedThreadPool(3);
+        ExecutorService executorService = Executors.newFixedThreadPool(10);
         List<Future<List<Tag>>> futureList;
         try {
             futureList = executorService.invokeAll(callableList);

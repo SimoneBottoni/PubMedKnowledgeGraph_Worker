@@ -5,10 +5,7 @@ import com.pubmedknowledgegraph.worker.pubmedknowledgegraph_worker.model.util.MM
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.Callable;
 
 public class AnnotateArticleOrBook implements Callable<List<Tag>> {
@@ -18,7 +15,7 @@ public class AnnotateArticleOrBook implements Callable<List<Tag>> {
     private final Annotate annotate;
 
     private final Map<String, Tag> tagMainList;
-    private List<ArticleTag> articleTagList;
+    private Set<ArticleTag> articleTagList;
     private List<BookTag> bookTagList;
 
     private final List<Article> articleList;
@@ -48,7 +45,7 @@ public class AnnotateArticleOrBook implements Callable<List<Tag>> {
         int count = 1;
         for (Article article : articleList) {
             logger.debug("Annotating " + fileName + " - Article PMID: " + article.getPmid() + "(" + count++ + "/" + articleList.size() + ")");
-            articleTagList = new ArrayList<>();
+            articleTagList = new HashSet<>();
             if (!article.getArticleTitle().equals("")) {
                 createTag(annotate.annotate(article.getArticleTitle()), article, null, "article", "Title");
             }
@@ -57,7 +54,7 @@ public class AnnotateArticleOrBook implements Callable<List<Tag>> {
                     createTag(annotate.annotate(article.getAbstractText()), article, null, "article", "Abstract");
                 }
             }
-            article.setArticleTagList(articleTagList);
+            article.setArticleTagList(new ArrayList<>(articleTagList));
         }
     }
 

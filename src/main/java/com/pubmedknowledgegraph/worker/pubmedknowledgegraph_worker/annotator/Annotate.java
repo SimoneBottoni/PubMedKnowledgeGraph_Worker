@@ -37,7 +37,9 @@ public class Annotate {
         String[] tagField = mmiTag.trim().split("\\|");
         MMITag mmiTagObj = new MMITag(tagField[2], tagField[1], tagField[3], tagField[0]);
         mmiTagObj.setTriggerInfo(tagField[4]);
-        mmiTagObj.setPositionalInfo(tagField[6]);
+        if (tagField.length > 6) {
+            mmiTagObj.setPositionalInfo(tagField[6]);
+        }
         if (tagField.length > 7) {
             mmiTagObj.setTreeCodes(tagField[7]);
         }
